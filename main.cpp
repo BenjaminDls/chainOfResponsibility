@@ -9,5 +9,7 @@ int main() {
     a1->setNext(a2);
     a1->execute(ACTION::Action1);
     a1->execute(ACTION::Action2);
+    delete a1;
+    delete a2;
     return 0;
 }
